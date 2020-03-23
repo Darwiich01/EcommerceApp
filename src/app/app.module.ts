@@ -13,6 +13,8 @@ import { environment } from '../environments/environment';
 
 import { AngularFireAuthModule  } from '@angular/fire/auth';
 
+import { AngularFireStorageModule } from '@angular/fire/storage';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -60,7 +62,9 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
      // AngularFirestore,
 
      AngularFirestoreModule,
-     AngularFireAuthModule 
+     AngularFireAuthModule , 
+     
+     AngularFireStorageModule
      
 
   ],
